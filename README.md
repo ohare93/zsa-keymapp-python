@@ -14,10 +14,10 @@ poetry install
 2. Generate the Protobuf API code from the keymapp.proto file
 
 ```sh
-poetry run python ./protoc.py generate 
+poetry run python -m grpc.tools.protoc -I. --proto_path . --python_out . --mypy_out . --grpc_python_out . ./protos/*.proto
 ```
 
-The protoc.py file handles this for you. Any .proto files in the protos/ folder will be used for generation.
+Any .proto files in the protos/ folder will be used for generation.
 
 ## Usage
 

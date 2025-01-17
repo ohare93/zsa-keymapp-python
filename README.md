@@ -32,5 +32,7 @@ Run it:
 poetry run python keymapp.py
 ```
 
-This will change the keyboard layer to the 2nd layer (layer 1!). Change the code in keymapp.py to do whatever you like 🎉
+This will change the keyboard layer to the 2nd layer (layer 1!). Change the code in keymapp.py to do whatever you like 🎉 Set the layer, increase the brightness, change led colours in your keyboard. See protos/keymapp.proto for the valid endpoints. 
 
+See also:
+- [Kontroll](https://github.com/zsa/kontroll) a command-line tool written in Rust to interact with the Keymapp API. (Where the keymapp.proto file was taken from)

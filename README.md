@@ -1,5 +1,6 @@
 # zsa-keymapp-python
 
+Control your ZSA keyboard (Moonlander / Voyager / Ergodox) using the [Keymapp](https://blog.zsa.io/keymapp/) API (Protobuf) in Python.
 
 ## Installation
 

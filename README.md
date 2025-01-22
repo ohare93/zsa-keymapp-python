@@ -2,6 +2,8 @@
 
 Control your ZSA keyboard (Moonlander / Voyager / Ergodox) using the [Keymapp](https://blog.zsa.io/keymapp/) API (Protobuf) in Python.
 
+See also a Talon implementation https://github.com/ohare93/zsa-keymapp-talon for voice and foot-pedal control of your keyboard layers.
+
 ## Installation
 
 This repo uses poetry as a package manager and Python 3.12 (though older versions may work fine).
